@@ -29,7 +29,6 @@ maximo beneficio en comparación con las otras rutas minimas.
 
 La estructura de los archivos de texto a usar para representar los grafos, es la siguiente:
 
-	```
 	6
 	1
 	5
@@ -42,14 +41,11 @@ La estructura de los archivos de texto a usar para representar los grafos, es la
 	4 5 0 1
 	4 3 0 0
 	end
-	```
 
 La entrada se representa mediante un archivo de texto. La primera línea contiene el número de nodos del grafo, la segunda línea el nodo inicio del recorrido, y la tercera el nodo final del recorrido. El resto de líneas corresponden a la cantidad de arcos del grafo, con la siguiente estructura:
 
-	```
 	x y z w : 
 						
 	x y : Arco (x->y)					
 	z   : Cantidad de anillos del arco					
 	w   : Costo de ir del nodo x al nodo y
-	```
