@@ -1,4 +1,4 @@
-! EL PROBLEMA DEL HOMBRE FLOJO PERO AMBICIOSO
+! EL PROBLEMA DEL VIAJERO FLOJO PERO AMBICIOSO
 !
 ! Descripcion: Se representa el problema mediante un grafo (archivo.txt)
 ! 			   en donde la primera linea contiene el numero de nodos del 
