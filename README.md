@@ -25,6 +25,11 @@ En esencia el algoritmo es el mismo, solo que ahora para reconstruir un camino y
 intermedios entre rutas no basta con que el costo sea minimo sino que también se debe obtener el 
 maximo beneficio en comparación con las otras rutas minimas.
 
+### Uso:
+El programa posee un `makefile` para compilar. Al ejecutar el archivo resultante, solo solicitará 
+el nombre/ruta del archivo (.txt) para realizar los calculos.
+
+
 ### Entrada:
 
 La estructura de los archivos de texto a usar para representar los grafos, es la siguiente:
@@ -49,3 +54,7 @@ La entrada se representa mediante un archivo de texto. La primera línea contien
 	x y : Arco (x->y)					
 	z   : Cantidad de anillos del arco					
 	w   : Costo de ir del nodo x al nodo y
+
+### Salida:
+
+El programa imprime la ruta más corta y la cantidad de anillos recolectados en dicha ruta.
